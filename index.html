@@ -3,60 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delicious Chinese Cuisine</title>
+    <title>Chinese Restaurant Menu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="menu-container">
-        
         <div class="hero-section">
-            <img src="food.jpg" alt="Food Banner" class="hero-image">
             <h1 class="title">🍜 Delicious Chinese Cuisine 🥢</h1>
         </div>
 
-        <div class="menu-section">
-            <ol class="dish-list">
-                <li class="menu-item">
-                    <div class="item-header">
-                        <span class="item-name">Kung Pao Chicken</span>
-                        <span class="item-price">$12.99</span>
-                    </div>
-                    <div class="item-description">
-                        <span class="highlight">Spicy & Savory</span>
-                        <p>Tender chicken stir-fried with peanuts, vegetables, and chili peppers in a rich sauce.</p>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <div class="item-header">
-                        <span class="item-name">Peking Duck</span>
-                        <span class="item-price">$28.99</span>
-                    </div>
-                    <div class="item-description">
-                        <span class="highlight">Crispy & Aromatic</span>
-                        <p>Roasted duck served with thin pancakes, hoisin sauce, and fresh scallions.</p>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <div class="item-header">
-                        <span class="item-name">Mapo Tofu</span>
-                        <span class="item-price">$10.99</span>
-                    </div>
-                    <div class="item-description">
-                        <span class="highlight">Spicy & Silky</span>
-                        <p>Soft tofu cooked in a fiery Sichuan sauce with minced pork and Sichuan peppercorns.</p>
-                    </div>
-                </li>
-                <li class="menu-item">
-                    <div class="item-header">
-                        <span class="item-name">Dim Sum Platter</span>
-                        <span class="item-price">$15.99</span>
-                    </div>
-                    <div class="item-description">
-                        <span class="highlight">Assorted & Delicate</span>
-                        <p>A selection of steamed and fried dumplings, buns, and rolls.</p>
-                    </div>
-                </li>
-            </ol>
+        <div class="menu-grid">
+            <div class="dish-card">
+                <img src="dish1.jpg" alt="Shumai" class="dish-image">
+                <div class="dish-info">
+                    <h3> Shumai <span class="price">$6.99</span></h3>
+                    <p>Cantonese dumplings with pork and shrimp, steamed to perfection.</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish2.jpg" alt="Hot Pot Pen Cai" class="dish-image">
+                <div class="dish-info">
+                    <h3>Hot Pot Pen Cai <span class="price">$29.99</span></h3>
+                    <p> A mix of meats, seafood, and vegetables simmered in a flavorful broth.</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish3.jpg" alt="Salt-Baked Chicken" class="dish-image">
+                <div class="dish-info">
+                    <h3>Salt-Baked Chicken <span class="price">$18.99</span></h3>
+                    <p>Tender chicken seasoned with salt and herbs, then baked to perfection.</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish4.jpg" alt="Spring Rolls" class="dish-image">
+                <div class="dish-info">
+                    <h3>Spring Rolls <span class="price">$8.99</span></h3>
+                    <p>Crispy rolls filled with vegetables and meat, deep-fried to a golden crunch.</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish5.jpg" alt="Lobster in Supreme Broth" class="dish-image">
+                <div class="dish-info">
+                    <h3>Lobster in Supreme Broth <span class="price">$35.99</span></h3>
+                    <p>Lobster cooked in a rich, flavorful broth, offering a tender and savory taste.</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish6.jpg" alt="Steamed Dumplings" class="dish-image">
+                <div class="dish-info">
+                    <h3>Steamed Dumplings <span class="price">$9.99</span></h3>
+                    <p>Soft dumplings filled with seasoned pork or shrimp, steamed to perfection.</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish7.jpg" alt="Steamed Grouper" class="dish-image">
+                <div class="dish-info">
+                    <h3>Steamed Grouper <span class="price">$22.99</span></h3>
+                    <p>Fresh grouper fish steamed with ginger and scallions for a light, delicate flavor.s</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish8.jpg" alt="Honey BBQ Char Siu" class="dish-image">
+                <div class="dish-info">
+                    <h3>Honey BBQ Char Siu <span class="price">$14.99</span></h3>
+                    <p>Tender pork glazed with a sweet and savory honey BBQ sauce, roasted to perfection.</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish9.jpg" alt="Cantonese Rice Noodle Rolls" class="dish-image">
+                <div class="dish-info">
+                    <h3>Cantonese Rice Noodle Rolls <span class="price">$8.99</span></h3>
+                    <p>Soft rice noodles rolled with shrimp, pork, or beef, drizzled with a savory soy sauce.</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish10.jpg" alt="Claypot Rice" class="dish-image">
+                <div class="dish-info">
+                    <h3>Claypot Rice <span class="price">$17.99</span></h3>
+                    <p>Fragrant rice cooked in a clay pot with your choice of meats and vegetables.</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish11.jpg" alt="Crispy Roasted Suckling Pig" class="dish-image">
+                <div class="dish-info">
+                    <h3>Crispy Roasted Suckling Pig <span class="price">$49.99</span></h3>
+                    <p>Crispy skin and tender meat, served with a savory glaze.</p>
+                </div>
+            </div>
+
+            <div class="dish-card">
+                <img src="dish12.jpg" alt="Stuffed Tofu" class="dish-image">
+                <div class="dish-info">
+                    <h3>Stuffed Tofu<span class="price">$11.99</span></h3>
+                    <p>Tofu stuffed with minced meat and vegetables, then steamed or braised.</p>
+                </div>
+            </div>
         </div>
 
         <div class="specials-section">
@@ -66,6 +117,20 @@
                 <li>General Tso's Chicken - $14.99</li>
                 <li>Vegetable Spring Rolls - $5.99</li>
             </ol>
+        </div>
+
+        <div class="beverage-section">
+            <h2>Beverages</h2>
+            <div class="beverage-grid">
+                <div class="beverage-card">
+                    <img src="tea.jpg" alt="Chinese Tea" class="beverage-image">
+                    <h3>Jasmine Tea <span class="price">$3.99</span></h3>
+                </div>
+                <div class="beverage-card">
+                    <img src="beer.jpg" alt="Tsingtao Beer" class="beverage-image">
+                    <h3>Tsingtao Beer <span class="price">$5.99</span></h3>
+                </div>
+            </div>
         </div>
     </div>
 </body>
